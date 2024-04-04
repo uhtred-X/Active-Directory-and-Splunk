@@ -1,4 +1,4 @@
-# Active Directory Project
+# Active Directory and Splunk Project
 This project is for developing a deeper understanding of Active Directory and learning about the deployment and configuration of Splunk, as well as gaining hands-on experience with Splunk's Search and Reporting features. We will also discuss the use cases and implementation of Atomic Red Team.
 
 ## Overview
