@@ -1,4 +1,4 @@
-## Launching an Instance {# Launching-an-Instance}
+## Launching an Instance {#Launching-an-Instance}
 
 Let's first launch an Ubuntu t2.micro instance and then discuss how to access it.
 
