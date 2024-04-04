@@ -7,11 +7,11 @@ There are two ways to do this project (both are free, I will make sure you won't
 
 The first way to do it is to set up a local lab environment using your own hardware and Virtual Machines. You can use VMWare or VirtualBox, whichever you prefer. The approximate requirements for this setup will be 250 GB of free space and 16 GB of RAM. Processors with higher cores are a plus. Your setup will look something like this:
 
-[AD.drawio.png]
+![AD.drawio.png](AD.drawio.png)
 
 The second way is using the cloud, and I will discuss this method because many people don't have the privilege of using high-performance PCs and laptops. So, using cloud-based machines is a very optimal choice for them. Also, you will get some idea about deployment of instances over the cloud. I'm using AWS for this project because it's free for newcomers and easy to use. As promised, this project won't cost you a single penny, so we will only use t2.micro instances for this. Though we will face some performance issues, I will tell you how to tackle them. If you are familiar with any other cloud service provider, you can use any cloud platform of your choice. There is no restriction to use AWS only. The general representation of our setup will look something like this:
 
-[AD-aws.drawio.png]
+![AD-aws.drawio.png](AD-aws.drawio.png)
 
 Note: I'm using a Linux-based operating system. However, if you use Windows as your main operating system and are not familiar with Kali, Arch, Garuda, BlackArch, or Parrot, don't worry. I will use tools for demonstration that work for both Windows and Linux. So there is no need to install Linux OS, Windows will work fine.
 
@@ -65,7 +65,7 @@ Note: Check [this](aws/installation.md#Configuring-Security-Group) step even if 
 - **Splunk Enterprise**: [Here](splunk_server/installation.md) is the guide for `Splunk Server` installation.
 - **Splunk Universal Forwarder**: [Here](splunk_forwarder/installation.md) is the guide for `Splunk Universal Forwarder` installation.
 - **Sysmon**: [Here](sysmon/installation.md) is the guide for `sysmon` installation.
-- **Active Directory Domain Service**: [Here](ADDS/instalation.md) is the installation and configuration guide for AD DS.
+- **Active Directory Domain Service**: [Here](ADDS/installation.md) is the installation and configuration guide for AD DS.
 - **Joining Windows to Active Directory**:[Here](AD_join/join.md) is the guide for joining Windows to Active Directory.
 You can configure organizational units and add users to them by following [this guide](OU/conf.md).
 - **Setting Up Organizational Units**: [Here](OU/conf.md) is the guide for configuring Organizational units and adding user to them.

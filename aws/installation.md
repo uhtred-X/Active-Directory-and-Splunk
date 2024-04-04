@@ -86,9 +86,9 @@ Now let's configure our security group:
 
    ![3](sec-3.png)
 
-4. Click on "Add rule," and now you can define a rule according to your requirements. For this lab, we are allowing all inbound TCP and UDP traffic. Select 'ALL TCP' in Type and 'Anywhere-IPv4' in Source, and similarly for UDP. Save the rule.
+4. Click on "Add rule," and now you can define a rule according to your requirements. For this lab, we are allowing all inbound TCP and UDP traffic. Select 'ALL TCP' in Type and 'Anywhere-IPv4' in Source, and similarly for UDP. Save the rule. 
 
-   ![4](sec-4.png)
+   ![4](sec-4..png)
 
 Note: you can also define and configure the security group from EC2 dashboard.
 
@@ -114,7 +114,7 @@ Now let's define another instance (Windows Server) and we will use the above def
 
 4. Now, in the Firewall (security groups) section, select the existing group and choose our recently defined security group from the drop-down menu:
 
-	![3](win-3.png)
+   ![3](win-3.png)
 
 5. Scroll down and click on "Launch Instance":
 
